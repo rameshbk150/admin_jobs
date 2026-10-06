@@ -17,9 +17,7 @@ import {
   FaRotate,
 } from "react-icons/fa6";
 
-const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:5000/api";
+const API_URL = "/api";
 
 export default function ApplicationsPage() {
   const [

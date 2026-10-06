@@ -16,9 +16,7 @@ import {
   Building2,
 } from "lucide-react";
 
-const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:5000/api";
+const API_URL = "/api";
 
 export default function AddJobPage() {
   const router = useRouter();
